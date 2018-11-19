@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/*色変数*/
+/*フォント読み込み*/
+@font-face {
+  font-family: "はれのそら明朝";
+  src: url(../font/Harenosora.otf) format("opentype"); }
+body {
+  font-family: "はれのそら明朝";
+  background-color: #D8EAEB; }
+
+.contenthead {
+  font-size: 24px; }
+  @media screen and (max-width: 667px) {
+    .contenthead {
+      font-size: 20px; } }
+
+.content {
+  margin: 30px 50px; }
+  @media screen and (max-width: 667px) {
+    .content {
+      margin: 30px 0; } }
+  .content p {
+    font-size: 18px; }
+    @media screen and (max-width: 667px) {
+      .content p {
+        font-size: 12px; } }
+
+#top #top-letter {
+  text-align: center;
+  font-size: 24px; }
+  @media screen and (max-width: 667px) {
+    #top #top-letter {
+      font-size: 16px; } }
+#top .container {
+  background-color: #D8EAEB;
+  max-width: 800px; }
+
+#story .container-fluid {
+  background-color: #203B55;
+  max-width: 100%; }
+  #story .container-fluid #story-wrapper {
+    color: #fff;
+    margin: 30px 30px;
+    padding: 30px; }
+    @media screen and (max-width: 667px) {
+      #story .container-fluid #story-wrapper {
+        font-size: 12px;
+        margin: 30px 0;
+        padding: 10px; } }
+
+/*キャスト・スタッフ*/
+#castaff .container-fluid {
+  background-color: #eee;
+  max-width: 100%; }
+  #castaff .container-fluid #title-wrapper {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0; }
+    @media screen and (max-width: 667px) {
+      #castaff .container-fluid #title-wrapper {
+        font-size: 16px; } }
+
+#ticketPlace {
+  color: #fff; }
+  #ticketPlace .container-fluid {
+    background-color: #203B55;
+    max-width: 100%; }
+    #ticketPlace .container-fluid #ticket-wrapper {
+      text-align: center;
+      font-size: 36px;
+      margin: 20px 0; }
+      @media screen and (max-width: 667px) {
+        #ticketPlace .container-fluid #ticket-wrapper {
+          font-size: 18px; } }
+
+#contact .container-fluid {
+  background-color: #eee;
+  max-width: 100%; }
+#contact #twitter-wrapper {
+  text-align: center; }
+
+#footer {
+  background-color: #203B55;
+  position: relative;
+  margin-bottom: 0; }
+  #footer #copyright {
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 99;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,129 @@
+/*色変数*/
+$sky: #D8EAEB;
+$navy: #203B55;
+$gray: #eee;
+
+/*フォント読み込み*/
+@font-face {
+    font-family: "はれのそら明朝";
+    src: url(../font/Harenosora.otf) format("opentype");
+}
+
+body{
+    font-family: "はれのそら明朝";
+    background-color: $sky;
+}
+
+.contenthead{
+    font-size: 24px;
+    @media screen and ( max-width: 667px) {
+        font-size: 20px;
+    }
+}
+
+.content{
+    margin: 30px 50px;
+    @media screen and ( max-width: 667px) {
+        margin: 30px 0;
+    }
+
+    p{
+        font-size: 18px;
+        @media screen and ( max-width: 667px) {
+            font-size: 12px;
+        }
+    }
+}
+
+#top{
+    #top-letter{
+        text-align: center;
+        font-size: 24px;
+        @media screen and ( max-width: 667px) {
+            font-size: 16px;
+        }
+    }
+    .container{
+        background-color: $sky;
+        max-width: 800px;
+    }
+}
+
+#story{
+    .container-fluid{
+        background-color: $navy;
+        max-width: 100%;
+
+        #story-wrapper{
+            color: #fff;
+            margin: 30px 30px;
+            padding: 30px;
+            @media screen and ( max-width: 667px) {
+                font-size: 12px;
+                margin: 30px 0;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/*キャスト・スタッフ*/
+#castaff{
+    .container-fluid{
+        background-color: $gray;
+        max-width: 100%;
+
+        #title-wrapper{
+            font-size: 24px;
+            text-align: center;
+            margin: 20px 0;
+            @media screen and ( max-width: 667px) {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+#ticketPlace{
+    color: #fff;
+    .container-fluid{
+        background-color: $navy;
+        max-width: 100%;
+
+        #ticket-wrapper{
+            text-align: center;
+            font-size: 36px;
+            margin: 20px 0;
+            @media screen and ( max-width: 667px) {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+#contact{
+    .container-fluid{
+        background-color: $gray;
+        max-width: 100%;
+    }
+    #twitter-wrapper{
+        text-align: center;
+    }
+}
+
+#footer{
+    background-color:#203B55;
+    position: relative;
+    margin-bottom: 0;
+    #copyright{
+        font-family: sans-serif;
+        color: #fff;
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        right: 0;
+        margin:0 auto;
+        z-index: 99;
+        text-align: center;
+    }
+}
