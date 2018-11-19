@@ -1,4 +1,0 @@
-AuthUserFile /home/t16298sk/.htdigest
-AuthName "Members Only"
-AuthType Digest
-require valid-user
